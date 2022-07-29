@@ -1,16 +1,15 @@
-@font-face {src: url(./fuentes/blueberrydays.otf); font-weight: 500;  font-family: miestilo;
+@font-face {src: url(../fuentes/blueberrydays.otf); font-weight: 500;  font-family: miestilo;
 }
-@font-face {src: url(./fuentes/blueberrydays.ttf); font-weight: 900; font-family: mitexto;
+@font-face {src: url(../fuentes/blueberrydays.ttf); font-weight: 900; font-family: mitexto;
 }
-h1{
-    font-family: miestilo, Georgia, 'Times New Roman', Times, serif; font-weight: 500;
+body{background-color:beige;}
+h1{font-family: miestilo, Georgia, 'Times New Roman', Times, serif; font-weight: 500; color: black;
 }
-h2{
-    font-family: mitexto; font-weight: 900;
+h2{font-family: mitexto; font-weight: 900; color: black;
 }
-li{
-    display: inline; 
+li{display: inline; 
 }
+a:hover{color: brown;}
 .contenedorpadre{
     display: flex;
     flex-direction: row;
